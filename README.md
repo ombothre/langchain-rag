@@ -23,9 +23,8 @@ app/
 ├── easemyai_index/    # FAISS vector DB
 ├── services/          # ⚠️ One-time setup (scraping + indexing)
 ├── main.py            # Streamlit UI
+├── cli.py            
 ```
-
-> ⚠️ `services/` is excluded from Docker — run once locally before build.
 
 ---
 
